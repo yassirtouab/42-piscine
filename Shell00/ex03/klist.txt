@@ -1,0 +1,6 @@
+Credentials cache: API:EA9CB5C8-DA94-475E-8B4C-320A8B6CF659
+        Principal: ytouab@42ABUDHABI.AE
+
+  Issued                Expires               Principal
+Jun 20 15:18:33 2021  Jun 21 01:18:33 2021  krbtgt/42ABUDHABI.AE@42ABUDHABI.AE
+Jun 20 15:18:34 2021  Jun 21 01:18:33 2021  HTTP/student-storage.42abudhabi.ae@42ABUDHABI.AE
