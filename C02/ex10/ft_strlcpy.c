@@ -6,18 +6,18 @@
 /*   By: ytouab <ytouab@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/27 17:40:41 by ytouab            #+#    #+#             */
-/*   Updated: 2021/06/29 11:35:11 by ytouab           ###   ########.fr       */
+/*   Updated: 2022/04/02 05:24:30 by ytouab           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int				lenght(char *c)
+int		ft_strlen(char *s)
 {
-	char *d;
+    int l;
 
-	d = c;
-	while (*d)
-		d++;
-	return (d - c);
+    l = 0;
+    while(s[l])
+        l++;
+    return (l);
 }
 
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
@@ -26,7 +26,7 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	unsigned int x;
 
 	i = 0;
-	x = lenght(src);
+	x = ft_strlen(src);
 	if (size == 0)
 		return (x);
 	while (src[i] && i < size - 1)
