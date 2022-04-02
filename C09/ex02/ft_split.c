@@ -6,7 +6,7 @@
 /*   By: ytouab <ytouab@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/11 01:01:39 by ytouab            #+#    #+#             */
-/*   Updated: 2021/07/11 01:03:42 by ytouab           ###   ########.fr       */
+/*   Updated: 2022/04/02 05:35:40 by ytouab           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ char	**ft_split(char *str, char *charset)
 		x = 0;
 		while (str[x] && !ft_fsep(str[x], charset))
 			x++;
-		if (!(strs[i] = (char *)malloc(x + 1))) 
+		if (!(strs[i] = (char *)malloc(x + 1)))
 			return (0);
 		x = 0;
 		while (*str && !ft_fsep(*str, charset))
