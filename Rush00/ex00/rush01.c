@@ -6,7 +6,7 @@
 /*   By: ytouab <ytouab@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/25 13:51:02 by ytouab            #+#    #+#             */
-/*   Updated: 2021/06/26 12:26:55 by hlashen          ###   ########.fr       */
+/*   Updated: 2022/04/02 05:27:45 by ytouab           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	rush(int x, int y)
 
 	cx = 1;
 	cy = 1;
-	while (cy <= y)
+	while (cy <= y && x > 0 && y > 0)
 	{
 		while (cx <= x)
 		{
